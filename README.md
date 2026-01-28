@@ -20,9 +20,9 @@ This exercise helped me understand and practice:
 
 ## 🎯 Project Structure
 
-The project is divided into 8 parts (Teil 1-8), each focusing on different concepts:
+The project is divided into 8 parts, each focusing on different concepts:
 
-### Teil 3: UserList
+### Part 3: UserList
 My first component using `useEffect` to fetch data from an API and display a list of users.
 
 **What I practiced:**
@@ -30,7 +30,7 @@ My first component using `useEffect` to fetch data from an API and display a lis
 - API calls on component mount
 - Displaying fetched data
 
-### Teil 4: UserPosts
+### Part 4: UserPosts
 A component with a dropdown to select users and display their posts dynamically.
 
 **What I practiced:**
@@ -38,7 +38,7 @@ A component with a dropdown to select users and display their posts dynamically.
 - Dependency arrays with variables
 - Dynamic data loading
 
-### Teil 5: EffectDemo
+### Part 5: EffectDemo
 An interactive demo showing how different dependency arrays work.
 
 **What I practiced:**
@@ -48,7 +48,7 @@ An interactive demo showing how different dependency arrays work.
 - Multiple dependencies `[a, b]`
 - Console logging for debugging
 
-### Teil 6: PostList
+### Part 6: PostList
 A blog post list with proper loading and error handling.
 
 **What I practiced:**
@@ -58,7 +58,7 @@ A blog post list with proper loading and error handling.
 - Retry functionality
 - `try/catch/finally` blocks
 
-### Teil 7: UserCard
+### Part 7: UserCard
 My first custom hook! A reusable `useFetch` hook that simplifies data fetching.
 
 **What I practiced:**
@@ -67,7 +67,7 @@ My first custom hook! A reusable `useFetch` hook that simplifies data fetching.
 - Hook composition
 - One-line data fetching
 
-### Teil 8: Wetter-Dashboard (Weather Dashboard)
+### Part 8: Weather Dashboard
 The final project! A weather application using two different APIs.
 
 **What I practiced:**
@@ -116,14 +116,14 @@ src/
 ├── hooks/
 │   └── useFetch.js            # Custom fetch hook
 ├── components/
-│   ├── UserList.jsx           # Teil 3: Basic useEffect
-│   ├── UserPosts.jsx          # Teil 4: Dynamic API calls
-│   ├── EffectDemo.jsx         # Teil 5: Dependency arrays
-│   ├── PostList.jsx           # Teil 6: Loading & error states
-│   ├── UserCard.jsx           # Teil 7: Custom hook usage
-│   ├── WeatherDashboard.jsx   # Teil 8: Main weather component
-│   ├── CitySearch.jsx         # Teil 8: City search
-│   └── WeatherDisplay.jsx     # Teil 8: Weather display
+│   ├── UserList.jsx           # Part 3: Basic useEffect
+│   ├── UserPosts.jsx          # Part 4: Dynamic API calls
+│   ├── EffectDemo.jsx         # Part 5: Dependency arrays
+│   ├── PostList.jsx           # Part 6: Loading & error states
+│   ├── UserCard.jsx           # Part 7: Custom hook usage
+│   ├── WeatherDashboard.jsx   # Part 8: Main weather component
+│   ├── CitySearch.jsx         # Part 8: City search
+│   └── WeatherDisplay.jsx     # Part 8: Weather display
 ├── App.jsx                    # Navigation and routing
 └── main.jsx                   # Application entry point
 ```
